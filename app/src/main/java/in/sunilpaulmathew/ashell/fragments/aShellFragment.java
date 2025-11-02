@@ -162,16 +162,18 @@ public class aShellFragment extends Fragment {
                                     packageNamePrefix = splitCommands[0];
                                 }
 
-                                mCommandsAdapter = new CommandsAdapter(Commands.getPackageInfo(packageNamePrefix + "."));
-                                mRecyclerViewCommands.setItemAnimator(null);
-                                mRecyclerViewCommands.setLayoutManager(new LinearLayoutManager(requireActivity()));
-                                mRecyclerViewCommands.setAdapter(mCommandsAdapter);
-                                mRecyclerViewCommands.setVisibility(VISIBLE);
-                                mCommandsAdapter.setOnItemClickListener((command, v) -> {
-                                    mCommand.setText(splitCommands[0].contains(" ") ? splitPrefix(splitCommands[0], 0) + " " + command : command);
-                                    mCommand.setSelection(mCommand.getText().length());
-                                    mRecyclerViewCommands.setVisibility(GONE);
-                                });
+                                if (Shizuku.pingBinder() && Shizuku.getVersion() >= 11 && Shizuku.checkSelfPermission() == PackageManager.PERMISSION_GRANTED) {
+                                    mCommandsAdapter = new CommandsAdapter(Commands.getPackageInfo(packageNamePrefix + "."));
+                                    mRecyclerViewCommands.setItemAnimator(null);
+                                    mRecyclerViewCommands.setLayoutManager(new LinearLayoutManager(requireActivity()));
+                                    mRecyclerViewCommands.setAdapter(mCommandsAdapter);
+                                    mRecyclerViewCommands.setVisibility(VISIBLE);
+                                    mCommandsAdapter.setOnItemClickListener((command, v) -> {
+                                        mCommand.setText(splitCommands[0].contains(" ") ? splitPrefix(splitCommands[0], 0) + " " + command : command);
+                                        mCommand.setSelection(mCommand.getText().length());
+                                        mRecyclerViewCommands.setVisibility(GONE);
+                                    });
+                                }
                             } else {
                                 mCommandsAdapter = new CommandsAdapter(Commands.getCommand(s.toString()));
                                 mRecyclerViewCommands.setItemAnimator(null);
