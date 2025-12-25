@@ -398,9 +398,11 @@ public class aShellFragment extends Fragment {
         if (Utils.isBookmarked(string, requireActivity())) {
             Utils.deleteFromBookmark(string, requireActivity());
             Utils.toast(getString(R.string.bookmark_removed_message, string), requireActivity()).show();
+            mBookMark.setContentDescription(getString(R.string.bookmark_description));
         } else {
             Utils.addToBookmark(string, requireActivity());
             Utils.toast(getString(R.string.bookmark_added_message, string), requireActivity()).show();
+            mBookMark.setContentDescription(getString(R.string.bookmark_removed_message, string));
         }
         mBookMark.setImageDrawable(Utils.getDrawable(Utils.isBookmarked(string, requireActivity()) ? R.drawable.ic_starred : R.drawable.ic_star, requireActivity()));
         mBookMarksButton.setEnabled(!Utils.getBookmarks(requireActivity()).isEmpty());
