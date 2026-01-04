@@ -26,7 +26,7 @@
                 style="?attr/materialIconButtonFilledTonalStyle"
                 app:layout_constraintStart_toStartOf="parent"
                 app:icon="@drawable/ic_history"
-                android:contentDescription="@string/history_description"
+                android:contentDescription="History"
                 android:enabled="false" />
 
             <com.google.android.material.button.MaterialButton
@@ -38,7 +38,7 @@
                 app:layout_constraintTop_toTopOf="@id/history"
                 app:layout_constraintEnd_toStartOf="@id/clear"
                 app:icon="@drawable/ic_bookmarks"
-                android:contentDescription="@string/bookmarks_description"
+                android:contentDescription="Bookmarks"
                 android:enabled="false" />
 
             <com.google.android.material.button.MaterialButton
@@ -50,7 +50,7 @@
                 app:layout_constraintTop_toTopOf="@id/history"
                 app:layout_constraintEnd_toStartOf="@id/search"
                 app:icon="@drawable/ic_refresh"
-                android:contentDescription="@string/clear_description"
+                android:contentDescription="Clear output"
                 android:enabled="false" />
 
             <com.google.android.material.button.MaterialButton
@@ -62,7 +62,7 @@
                 style="?attr/materialIconButtonFilledTonalStyle"
                 app:layout_constraintTop_toTopOf="@id/history"
                 app:icon="@drawable/ic_search"
-                android:contentDescription="@string/search_description"
+                android:contentDescription="Search output"
                 android:enabled="false" />
 
             <com.google.android.material.button.MaterialButton
@@ -73,7 +73,7 @@
                 app:layout_constraintTop_toTopOf="@id/history"
                 app:layout_constraintEnd_toStartOf="@id/settings"
                 app:layout_constraintStart_toEndOf="@id/search"
-                android:contentDescription="@string/info_description"
+                android:contentDescription="Info"
                 app:icon="@drawable/ic_info" />
 
             <com.google.android.material.button.MaterialButton
@@ -83,7 +83,7 @@
                 app:layout_constraintTop_toTopOf="@id/history"
                 style="?attr/materialIconButtonFilledTonalStyle"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:contentDescription="@string/settings_description"
+                android:contentDescription="@string/settings"
                 app:icon="@drawable/ic_settings" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -104,8 +104,8 @@
                 android:gravity="start|center"
                 android:layout_margin="10dp"
                 android:background="@null"
-                android:hint="@string/search_description"
-                android:contentDescription="@string/search_description"
+                android:hint="Search output"
+                android:contentDescription="Search output"
                 android:visibility="gone" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -145,7 +145,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="start|center"
                     android:hint="@string/command_hint"
-                    android:contentDescription="@string/shell_command_input_description"
+                    android:contentDescription="Enter ADB command here"
                     android:inputType="textMultiLine"
                     android:gravity="center_vertical"
                     android:imeOptions="actionSend"
@@ -165,7 +165,7 @@
                 android:layout_marginEnd="60dp"
                 android:background="@null"
                 android:visibility="gone"
-                android:contentDescription="@string/bookmark_description"
+                android:contentDescription="Bookmark command"
                 android:alpha="0.5" />
 
             <com.google.android.material.button.MaterialButton
@@ -175,7 +175,7 @@
                 style="?attr/materialIconButtonFilledTonalStyle"
                 android:layout_gravity="end|center"
                 app:iconTint="?attr/colorPrimary"
-                android:contentDescription="@string/send_description"
+                android:contentDescription="Run command"
                 app:icon="@drawable/ic_help" />
         </FrameLayout>
 
@@ -199,7 +199,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:scrollbars="vertical"
-                android:contentDescription="@string/output_scrolling_area_description" />
+                android:contentDescription="Command output area" />
         </HorizontalScrollView>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -222,7 +222,7 @@
             app:icon="@drawable/ic_arrow"
             android:visibility="gone"
             android:gravity="center"
-            android:contentDescription="@string/scroll_top_description" />
+            android:contentDescription="Scroll to top" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/bottom"
@@ -235,7 +235,7 @@
             android:visibility="gone"
             android:gravity="center"
             android:rotation="180"
-            android:contentDescription="@string/scroll_bottom_description" />
+            android:contentDescription="Scroll to bottom" />
     </FrameLayout>
 
     <com.google.android.material.button.MaterialButton

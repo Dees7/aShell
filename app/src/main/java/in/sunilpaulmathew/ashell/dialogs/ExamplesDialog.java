@@ -38,7 +38,7 @@ public class ExamplesDialog extends MaterialAlertDialogBuilder {
         button.setLayoutParams(new LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         button.setText(example);
-        button.setContentDescription(context.getString(R.string.copy_example_description));
+        button.setContentDescription("Copy example to clipboard");
         layout.addView(button);
         button.setOnClickListener(v -> Utils.copyToClipboard(example, context));
 

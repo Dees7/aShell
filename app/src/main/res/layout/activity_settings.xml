@@ -37,7 +37,7 @@
             android:src="@mipmap/ic_launcher_round"
             android:layout_gravity="start|center"
             android:importantForAccessibility="yes"
-            android:contentDescription="@string/app_icon_description"
+            android:contentDescription="App icon"
             android:clickable="false" />
 
         <androidx.appcompat.widget.LinearLayoutCompat

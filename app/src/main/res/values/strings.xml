@@ -13,11 +13,8 @@
     <string name="authorize_click_message">Click to authorize</string>
     <string name="bookmark_added_message">\'%s\' is bookmarked</string>
     <string name="bookmark_removed_message">\'%s\' has been removed from bookmark</string>
-    <string name="bookmarks_description">Bookmarks</string>
-    <string name="bookmark_description">Bookmark command</string>
     <string name="cancel">Cancel</string>
     <string name="clear_all_message">Clear everything on this screen?</string>
-    <string name="clear_description">Clear output</string>
     <string name="command_hint">Input ADB command here</string>
     <string name="command_title">aShell Command Box</string>
     <string name="copy_clipboard">"Copy to clipboard"</string>
@@ -34,8 +31,6 @@
     <string name="file_manager_error_toast">Failed to get data from external file manager. Aborting.</string>
     <string name="general">General</string>
     <string name="granted">Granted</string>
-    <string name="history_description">History</string>
-    <string name="info_description">Info</string>
     <string name="language">Language</string>
     <string name="language_ar" translatable="false">العربية (%s)</string>
     <string name="language_cs" translatable="false">čeština</string>
@@ -65,23 +60,7 @@
     <string name="quit_app_message">Do you want to quit aShell?</string>
     <string name="request_permission">Request Permission</string>
     <string name="save">Save</string>
-    <string name="scroll_bottom_description">Scroll to bottom</string>
-    <string name="scroll_top_description">Scroll to top</string>
-    <string name="search_description">Search output</string>
-    <string name="search_examples_hint">Search examples</string>
-    <string name="send_description">Run command</string>
     <string name="settings">Settings</string>
-    <string name="settings_description">Settings</string>
-
-    <!-- Accessibility Strings -->
-    <string name="app_icon_description">App icon</string>
-    <string name="search_icon_description">Search icon</string>
-    <string name="permission_icon_description">Permission icon</string>
-    <string name="copy_example_description">Copy example to clipboard</string>
-    <string name="expand_description">Expand</string>
-    <string name="collapse_description">Collapse</string>
-    <string name="shell_command_input_description">Enter ADB command here</string>
-    <string name="output_scrolling_area_description">Command output area</string>
     <string name="shell_output_saved_message">The output of last command is exported to \'%s\' folder</string>
     <string name="shizuku_access_denied_message">Access to Shizuku service is denied for aShell. aShell won\'t work without a proper Shizuku environment.</string>
     <string name="shizuku_access_denied_title">Shizuku access denied for aShell</string>

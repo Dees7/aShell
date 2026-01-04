@@ -398,7 +398,7 @@ public class aShellFragment extends Fragment {
         if (Utils.isBookmarked(string, requireActivity())) {
             Utils.deleteFromBookmark(string, requireActivity());
             Utils.toast(getString(R.string.bookmark_removed_message, string), requireActivity()).show();
-            mBookMark.setContentDescription(getString(R.string.bookmark_description));
+            mBookMark.setContentDescription("Bookmark command");
         } else {
             Utils.addToBookmark(string, requireActivity());
             Utils.toast(getString(R.string.bookmark_added_message, string), requireActivity()).show();

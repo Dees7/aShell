@@ -60,8 +60,7 @@ public class WelcomeAdapter extends RecyclerView.Adapter<WelcomeAdapter.ViewHold
 
         Settings.setSlideInAnimation(holder.itemView, position);
         holder.mButton.setContentDescription(holder.mText.getMaxLines() == 1 ?
-                holder.itemView.getContext().getString(R.string.expand_description) :
-                holder.itemView.getContext().getString(R.string.collapse_description));
+                "Expand" : "Collapse");
     }
 
     @Override
@@ -92,11 +91,11 @@ public class WelcomeAdapter extends RecyclerView.Adapter<WelcomeAdapter.ViewHold
                 if (mText.getMaxLines() == 1) {
                     mText.setSingleLine(false);
                     mButton.setRotation(180);
-                    mButton.setContentDescription(view.getContext().getString(R.string.collapse_description));
+                    mButton.setContentDescription("Collapse");
                 } else {
                     mButton.setRotation(0);
                     mText.setMaxLines(1);
-                    mButton.setContentDescription(view.getContext().getString(R.string.expand_description));
+                    mButton.setContentDescription("Expand");
                 }
             }
         }
