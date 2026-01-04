@@ -1,0 +1,4 @@
+* Fixed crashes on certain cases due to no Shizuku access.
+* Improved accessibility for TalkBack users, thanks to Aryan Choudhary (https://github.com/aryanchoudharypro).
+* Updated Japanese translations.
+* Miscellaneous changes.

@@ -6,6 +6,12 @@ include_in_header: true
 
 <h2 style="color: blue">🆕 What's New</h2>
 
+### ✨ 17. [v0.24](https://gitlab.com/sunilpaulmathew/ashell/-/releases/v0.24) *(Jan 04 2026)*
+- Fixed crashes on certain cases due to no Shizuku access.
+- Improved accessibility for TalkBack users, thanks to [Aryan Choudhary](https://github.com/aryanchoudharypro).
+- Updated Japanese translations.
+- Miscellaneous changes.
+
 ### ✨ 16. [v0.23](https://gitlab.com/sunilpaulmathew/ashell/-/releases/v0.23) *(Oct 21 2025)*
 - Fixed small layout issues on the main screen.
 - Improved initializing Shizuku service.
