@@ -21,7 +21,7 @@
     <string name="shizuku_unavailable_message">"Shizuku غير مثبت أو غير معد بشكل صحيح على جهازك. لن يعمل aShell بدون بيئة Shizuku صحيحة. انقر هنا لمعرفة المزيد عن Shizuku."</string>
     <string name="su_warning_message">"aShell غير مصمم للاستخدامات المرتبطة بالجذر. يتم الإيقاف."</string>
     <string name="yes">"نعم"</string>
-    <string name="copyright_text">"حقوق الطبع والنشر: © 2024–2025، sunilpaulmathew"</string>
+    <string name="copyright_text">"حقوق الطبع والنشر: © 2022–2026، sunilpaulmathew"</string>
     <string name="save">"أحفظ"</string>
     <string name="app_theme">"مظهر التطبيق"</string>
     <string name="app_theme_amoled">"أسود Amoled"</string>

@@ -28,6 +28,6 @@
     <string name="su_warning_message">"Az aShell nem root alapú felhasználásra készült. Megszakítás."</string>
     <string name="translations">"Fordítások"</string>
     <string name="yes">"Igen"</string>
-    <string name="copyright_text">"Szerzői jog: © 2024–2025, sunilpaulmathew"</string>
+    <string name="copyright_text">"Szerzői jog: © 2022–2026, sunilpaulmathew"</string>
     <string name="save">"Mentés"</string>
 </resources>

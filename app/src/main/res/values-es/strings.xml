@@ -21,7 +21,7 @@
     <string name="shizuku_unavailable_message">"Shizuku no está instalado o configurado correctamente en tu dispositivo. aShell no funcionará sin un entorno Shizuku adecuado. Haz clic aquí para obtener más información sobre Shizuku."</string>
     <string name="su_warning_message">"aShell no está diseñado para usos relacionados con la raíz. Abortando."</string>
     <string name="yes">"Sí"</string>
-    <string name="copyright_text">"Derechos de autor: © 2024–2025, sunilpaulmathew"</string>
+    <string name="copyright_text">"Derechos de autor: © 2022–2026, sunilpaulmathew"</string>
     <string name="save">"Guardar"</string>
     <string name="app_theme">"Tema de la aplicación"</string>
     <string name="app_theme_amoled">"Amoled negro"</string>

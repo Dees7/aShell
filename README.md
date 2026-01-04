@@ -52,7 +52,7 @@ Some other ways to support the development includes, but not limited to
 
 ## License
 
-    Copyright (C) 2022-2025 sunilpaulmathew <sunil.kde@gmail.com>
+    Copyright (C) 2022-2026 sunilpaulmathew <sunil.kde@gmail.com>
 
     aShell is a free softwares: you can redistribute it and/or modify it
     under the terms of the GNU General Public License as published by the

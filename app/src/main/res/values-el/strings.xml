@@ -10,7 +10,7 @@
     <string name="command_hint">Εισαγάγετε την εντολή ADB εδώ</string>
     <string name="command_title">aShell Πλαίσιο Εντολών</string>
     <string name="copy_clipboard">"Αντιγραφή"</string>
-    <string name="copyright_text">Copyright: © 2025–2026, sunilpaulmathew</string>
+    <string name="copyright_text">Copyright: © 2022–2026, sunilpaulmathew</string>
     <string name="dismiss">Παράβλεψη</string>
     <string name="examples">Παραδείγματα</string>
     <string name="file_manager_error_toast">Αποτυχία λήψης δεδομένων από εξωτερικό διαχειριστή αρχείων. Ματαίωση.</string>

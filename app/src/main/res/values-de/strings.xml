@@ -21,7 +21,7 @@
     <string name="shizuku_unavailable_message">"Shizuku ist nicht ordnungsgemäß auf Ihrem Gerät installiert oder nicht ordnungsgemäß konfiguriert. aShell funktioniert nicht ohne eine ordnungsgemäße Shizuku-Umgebung."</string>
     <string name="su_warning_message">"aShell ist nicht für Root-bezogene Anwendungen konzipiert. Abbruch."</string>
     <string name="yes">"Ja"</string>
-    <string name="copyright_text">"Urheberrecht: © 2022–2025, sunilpaulmathew"</string>
+    <string name="copyright_text">"Urheberrecht: © 2022–2026, sunilpaulmathew"</string>
     <string name="save">"Speichern"</string>
     <string name="app_theme">"App-Design"</string>
     <string name="app_theme_amoled">"Amoled schwarz"</string>

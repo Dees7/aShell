@@ -21,7 +21,7 @@
     <string name="shizuku_unavailable_message">"Shizuku není nainstalováno nebo správně nastaveno na vašem zařízení. aShell nefunguje bez funkčního Shizuku prostředí."</string>
     <string name="su_warning_message">"aShell není dělaný pro uživatele zabývající se rootem. Ruším."</string>
     <string name="yes">"Ano"</string>
-    <string name="copyright_text">"Copyright: © 2022–2025, sunilpaulmathew"</string>
+    <string name="copyright_text">"Copyright: © 2022–2026, sunilpaulmathew"</string>
     <string name="save">"Uložit"</string>
     <string name="app_theme">"Téma aplikace"</string>
     <string name="app_theme_amoled">"Amoled černá"</string>

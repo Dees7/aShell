@@ -21,7 +21,7 @@
     <string name="shizuku_unavailable_message">"Shizuku tidak terpasang atau tidak terkonfigurasi dengan benar di perangkat anda. aShell tidak dapat bekerja tanpa menginstal Shizuku. Klik di sini untuk mengetahui lebih lanjut tentang Shizuku."</string>
     <string name="su_warning_message">"aShell tidak dirancang untuk penggunaan seputar root. Batalkan."</string>
     <string name="yes">"Ya"</string>
-    <string name="copyright_text">"Hak cipta © 2022–2025, sunilpaulmathew"</string>
+    <string name="copyright_text">"Hak cipta © 2022–2026, sunilpaulmathew"</string>
     <string name="save">"Simpan"</string>
     <string name="app_theme">"Tema Aplikasi"</string>
     <string name="app_theme_amoled">"Hitam Amoled"</string>
