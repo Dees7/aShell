@@ -38,7 +38,7 @@
     <string name="disclaimer_description">"\uD83E\uDDE9 Shizukuへの依存：aShellは、完全に動作するShizuku環境を必要とします。このアプリを使用する前に、Shizukuがセットアップされていることを確認してください。
         \uD83D\uDC68\u200D\uD83D\uDCBB 必須の基本知識：効果的に使用するには、ADBとLinuxコマンドラインの基礎知識が推奨されます。
         \uD83C\uDF10 オープンソース：aShellはオープンソースであり、無料でビルドできます。GitLabおよびPOEditorを通じた貢献と翻訳を歓迎します。
-        ⚠️ 免責事項：このアプリの使用中に発生する可能性のある問題、データ損失、または損害について、当社は一切責任を負いません。"</string>
+        ⚠️ 免責事項：このアプリの使用中に発生する可能性のある問題、データ損失、または損害について、当アプリは一切責任を負いません。"</string>
     <string name="examples_description">"人気のADBコマンドを調べる"</string>
     <string name="features_description">"\uD83D\uDCDC ADB コマンドを簡単に実行します　またコマンドの例とブックマークが含まれています。
         \uD83D\uDCCA logcat や top などの連続コマンドを処理し出力の検索と保存のオプションを備えています。
@@ -63,4 +63,10 @@
     <string name="translations">"翻訳"</string>
     <string name="translations_description">"アプリの翻訳に協力する"</string>
     <string name="user_interface">"ユーザーインターフェース"</string>
+    <string name="shizuku_app_open_message">"aShellにShizukuアクセスを与える方法:
+
+        1.Shizukuアプリを開きます
+        2.承認されたアプリケーションを開きます
+        3.aShellにアクセス権限を与えます"</string>
+    <string name="shizuku_open">"Shizukuアプリを開く"</string>
 </resources>
