@@ -19,6 +19,8 @@
                     android:layout_height="30dp"
                     android:layout_gravity="center"
                     android:layout_weight="0.1"
+                    android:importantForAccessibility="no"
+                    android:clickable="false"
                     android:background="@null" />
 
                 <androidx.appcompat.widget.LinearLayoutCompat

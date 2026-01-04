@@ -59,6 +59,8 @@ public class SettingsAdapter extends RecyclerView.Adapter<SettingsAdapter.ViewHo
         if (data.get(position).getIcon() != Integer.MIN_VALUE) {
             holder.mIcon.setImageDrawable(Utils.getDrawable(data.get(position).getIcon(), holder.mIcon.getContext()));
             holder.mIcon.setVisibility(View.VISIBLE);
+            holder.mIcon.setContentDescription(data.get(position).geTitle());
+            holder.mIcon.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_YES);
         } else {
             holder.mIcon.setVisibility(View.GONE);
         }

@@ -27,6 +27,8 @@
                 android:layout_gravity="center_vertical"
                 android:src="@mipmap/ic_launcher"
                 android:layout_margin="10dp"
+                android:importantForAccessibility="no"
+                android:clickable="false"
                 android:scaleType="fitCenter" />
 
             <androidx.appcompat.widget.LinearLayoutCompat
@@ -68,5 +70,6 @@
         android:textStyle="bold|italic"
         android:layout_margin="50sp"
         android:textSize="17sp"
-        app:iconGravity="end" />
+        app:iconGravity="end"
+        android:contentDescription="@string/start" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
