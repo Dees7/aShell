@@ -176,7 +176,7 @@
                 android:layout_gravity="end|center"
                 app:iconTint="?attr/colorPrimary"
                 android:contentDescription="Run command"
-                app:icon="@drawable/ic_help" />
+                app:icon="@drawable/ic_send" />
         </FrameLayout>
 
         <androidx.recyclerview.widget.RecyclerView
