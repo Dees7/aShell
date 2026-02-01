@@ -70,7 +70,7 @@ public class aShellFragment extends Fragment {
 
     private AppCompatAutoCompleteTextView mCommand;
     private AppCompatImageButton mBookMark;
-    private MaterialButton mBookMarksButton, mBottomArrow, mClearButton, mHistoryButton, mInfoButton, mSaveButton, mSearchButton, mSendButton, mSettingsButton, mTopArrow;
+    private MaterialButton mBookMarksButton, mBottomArrow, mClearButton, mHistoryButton, mExamplesButton, mSaveButton, mSearchButton, mSendButton, mSettingsButton, mTopArrow;
     private TextInputEditText mSearchWord;
     private RecyclerView mRecyclerViewOutput;
     private ShizukuShell mShizukuShell = null;
@@ -101,7 +101,7 @@ public class aShellFragment extends Fragment {
         mBottomArrow = mRootView.findViewById(R.id.bottom);
         mClearButton = mRootView.findViewById(R.id.clear);
         mHistoryButton = mRootView.findViewById(R.id.history);
-        mInfoButton = mRootView.findViewById(R.id.info);
+        mExamplesButton = mRootView.findViewById(R.id.examples);
         mSettingsButton = mRootView.findViewById(R.id.settings);
         mSearchButton = mRootView.findViewById(R.id.search);
         mBookMark = mRootView.findViewById(R.id.bookmark);
@@ -211,7 +211,10 @@ public class aShellFragment extends Fragment {
             }
         });
 
-        mInfoButton.setOnClickListener(v -> new AboutDialog(requireActivity()));
+        mExamplesButton.setOnClickListener(v -> {
+            Intent examples = new Intent(requireActivity(), ExamplesActivity.class);
+            startActivity(examples);
+        });
 
         mSettingsButton.setOnClickListener(v -> {
             Intent intent = new Intent(v.getContext(), SettingsActivity.class);
@@ -239,7 +242,7 @@ public class aShellFragment extends Fragment {
             mHistoryButton.setVisibility(GONE);
             mClearButton.setVisibility(GONE);
             mBookMarksButton.setVisibility(GONE);
-            mInfoButton.setVisibility(GONE);
+            mExamplesButton.setVisibility(GONE);
             mSettingsButton.setVisibility(GONE);
             mSearchButton.setVisibility(GONE);
             mSearchWord.setVisibility(VISIBLE);
@@ -427,7 +430,7 @@ public class aShellFragment extends Fragment {
         mSearchWord.setVisibility(GONE);
         if (!mCommand.isFocused()) mCommand.requestFocus();
         mBookMarksButton.setVisibility(VISIBLE);
-        mInfoButton.setVisibility(VISIBLE);
+        mExamplesButton.setVisibility(VISIBLE);
         mSettingsButton.setVisibility(VISIBLE);
         mHistoryButton.setVisibility(VISIBLE);
         mClearButton.setVisibility(VISIBLE);
@@ -512,7 +515,7 @@ public class aShellFragment extends Fragment {
         mBookMarksButton.setEnabled(false);
         mClearButton.setEnabled(false);
         mSearchButton.setEnabled(false);
-        mInfoButton.setEnabled(false);
+        mExamplesButton.setEnabled(false);
         mSettingsButton.setEnabled(false);
 
         String mTitleText = "<font color=\"" + Settings.getColorAccent(requireActivity()) + "\">shell@" + Utils.getDeviceName() + "</font># <i>" + finalCommand + "</i>";
@@ -562,7 +565,7 @@ public class aShellFragment extends Fragment {
                     if (mHistory != null && !mHistory.isEmpty() && !mHistoryButton.isEnabled()) {
                         mHistoryButton.setEnabled(true);
                     }
-                    mInfoButton.setEnabled(true);
+                    mExamplesButton.setEnabled(true);
                     mSettingsButton.setEnabled(true);
                     mBookMarksButton.setEnabled(!Utils.getBookmarks(requireActivity()).isEmpty());
                     if (mResult != null && !mResult.isEmpty()) {

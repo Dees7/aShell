@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 app:layout_constraintStart_toEndOf="@id/clear"
-                app:layout_constraintEnd_toStartOf="@id/info"
+                app:layout_constraintEnd_toStartOf="@id/examples"
                 style="?attr/materialIconButtonFilledTonalStyle"
                 app:layout_constraintTop_toTopOf="@id/history"
                 app:icon="@drawable/ic_search"
@@ -66,15 +66,15 @@
                 android:enabled="false" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/info"
+                android:id="@+id/examples"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 style="?attr/materialIconButtonFilledTonalStyle"
                 app:layout_constraintTop_toTopOf="@id/history"
                 app:layout_constraintEnd_toStartOf="@id/settings"
                 app:layout_constraintStart_toEndOf="@id/search"
-                android:contentDescription="Info"
-                app:icon="@drawable/ic_info" />
+                android:contentDescription="Examples"
+                app:icon="@drawable/ic_help" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/settings"
