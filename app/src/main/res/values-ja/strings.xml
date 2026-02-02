@@ -35,22 +35,22 @@
     <string name="developer_contact">"開発者に連絡"</string>
     <string name="developer_contact_description">"ヘルプやフィードバックが必要な場合は、開発者にお問い合わせください"</string>
     <string name="disclaimer">"免責事項"</string>
-    <string name="disclaimer_description">"\uD83E\uDDE9 Shizukuへの依存：aShellは、完全に動作するShizuku環境を必要とします。このアプリを使用する前に、Shizukuがセットアップされていることを確認してください。
-        \uD83D\uDC68\u200D\uD83D\uDCBB 必須の基本知識：効果的に使用するには、ADBとLinuxコマンドラインの基礎知識が推奨されます。
-        \uD83C\uDF10 オープンソース：aShellはオープンソースであり、無料でビルドできます。GitLabおよびPOEditorを通じた貢献と翻訳を歓迎します。
-        ⚠️ 免責事項：このアプリの使用中に発生する可能性のある問題、データ損失、または損害について、当アプリは一切責任を負いません。"</string>
+    <string name="disclaimer_description">"Shizukuへの依存：aShellは、完全に動作するShizuku環境を必要とします。このアプリを使用する前に、Shizukuがセットアップされていることを確認してください。
+        必須の基本知識：効果的に使用するには、ADBとLinuxコマンドラインの基礎知識が推奨されます。
+        オープンソース：aShellはオープンソースであり、無料でビルドできます。GitLabおよびPOEditorを通じた貢献と翻訳を歓迎します。
+        免責事項：このアプリの使用中に発生する可能性のある問題、データ損失、または損害について、当アプリは一切責任を負いません。"</string>
     <string name="examples_description">"人気のADBコマンドを調べる"</string>
-    <string name="features_description">"\uD83D\uDCDC ADB コマンドを簡単に実行します　またコマンドの例とブックマークが含まれています。
-        \uD83D\uDCCA logcat や top などの連続コマンドを処理し出力の検索と保存のオプションを備えています。
-        \uD83C\uDFA8 自動ダーク/ライト テーマを備えた洗練された UI によりスムーズでモダンなエクスペリエンスが実現します。"</string>
+    <string name="features_description">"ADB コマンドを簡単に実行します　またコマンドの例とブックマークが含まれています。
+        logcat や top などの連続コマンドを処理し出力の検索と保存のオプションを備えています。
+        自動ダーク/ライト テーマを備えた洗練された UI によりスムーズでモダンなエクスペリエンスが実現します。"</string>
     <string name="features_title">"特徴"</string>
     <string name="file_manager_error_toast">"内部ストレージからデータを取得できませんでした。処理を中止します。"</string>
     <string name="general">"一般"</string>
     <string name="granted">"付与された"</string>
     <string name="language">"言語"</string>
     <string name="miscellaneous">"Miscellaneous"</string>
-    <string name="permissions_shizuku_description">"🔐moe.shizuku.manager.permission.API_V23: Shizukuの特権APIを使用するために必要な権限"</string>
-    <string name="permissions_storage_description">"📂 WRITE_EXTERNAL_STORAGE: 最後のコマンドのログをデバイスに保存するために必要(オプション)"</string>
+    <string name="permissions_shizuku_description">"moe.shizuku.manager.permission.API_V23: Shizukuの特権APIを使用するために必要な権限"</string>
+    <string name="permissions_storage_description">"WRITE_EXTERNAL_STORAGE: 最後のコマンドのログをデバイスに保存するために必要(オプション)"</string>
     <string name="permissions_title">"必要な権限"</string>
     <string name="privacy_policy">"プライバシーポリシー"</string>
     <string name="privacy_policy_description">"プライバシーは重要です: 詳細はこちら"</string>

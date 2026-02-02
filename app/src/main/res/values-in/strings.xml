@@ -35,7 +35,7 @@
     <string name="developer_contact">"Hubungi pengembang"</string>
     <string name="developer_contact_description">"Butuh bantuan atau memiliki saran? Hubungi pengembang sekarang"</string>
     <string name="disclaimer">"Peringatan"</string>
-    <string name="disclaimer_description">"\uD83E\uDDE9 Pustaka Shizuku: aShell membutuhkan Shizuku agar dapat berfungsi. Pastikan Shizuku telah diatur sebelum menggunakan aplikasi ini."</string>
+    <string name="disclaimer_description">"Pustaka Shizuku: aShell membutuhkan Shizuku agar dapat berfungsi. Pastikan Shizuku telah diatur sebelum menggunakan aplikasi ini."</string>
     <string name="examples_description">"Jelajah perintah ADB populer"</string>
     <string name="features_title">"Fitur"</string>
     <string name="file_manager_error_toast">"Gagal mengambil data pengelola file eksternal. Batalkan"</string>

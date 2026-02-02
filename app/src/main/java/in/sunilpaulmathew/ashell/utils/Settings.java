@@ -109,8 +109,8 @@ public class Settings {
         mData.add(new CommandEntry("Scope", "This policy applies exclusively to the original version of aShell published by the developer on Google Play, F-Droid, IzzyOnDroid, and GitHub."));
         mData.add(new CommandEntry("Personal Information", "We do not collect, store, or share any personal information about our users. User identities remain anonymous. If we inadvertently receive any personal information, we will not disclose or share it with third parties."));
         mData.add(new CommandEntry("Permissions", "aShell requires the following permissions to deliver its features:" +
-                "\n\uD83D\uDD10 moe.shizuku.manager.permission.API_V23: Permission required to use Shizuku’s privileged APIs." +
-                "\n\uD83D\uDCC2 WRITE_EXTERNAL_STORAGE: Allows aShell to write recent command results to device storage."));
+                "\nmoe.shizuku.manager.permission.API_V23: Permission required to use Shizuku’s privileged APIs." +
+                "\nWRITE_EXTERNAL_STORAGE: Allows aShell to write recent command results to device storage."));
         mData.add(new CommandEntry("Contact Us", "If you have questions or concerns about this Privacy Policy, please contact us at: smartpack.org@gmail.com"));
         mData.add(new CommandEntry("Changes to This Policy", "We may update this policy from time to time. Changes will be posted here."));
         return mData;

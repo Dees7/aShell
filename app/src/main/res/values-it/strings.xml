@@ -35,22 +35,22 @@
     <string name="developer_contact">"Contatta lo sviluppatore"</string>
     <string name="developer_contact_description">"Hai bisogno di aiuto o vuoi lasciare un feedback? Contatta lo sviluppatore"</string>
     <string name="disclaimer">"Disclaimer"</string>
-    <string name="disclaimer_description">"\uD83E\uDDE9 Dipendenza Shizuku: aShell richiede un ambiente Shizuku completamente funzionante per funzionare. Assicurarsi che Shizuku sia configurato prima di utilizzare questa app.
-        \uD83D\uDC68\u200D\uD83D\uDCBB Conoscenze di base richieste: si consiglia la familiarità con ADB e le basi della riga di comando Linux per un utilizzo efficace.
-        \uD83C\uDF10 Open Source: aShell è open source e la sua compilazione è gratuita. Contributi e traduzioni sono benvenuti tramite GitLab e POEditor.
-        ⚠️ Nessuna responsabilità: non siamo responsabili per eventuali problemi, perdite di dati o danni che potrebbero verificarsi durante l'utilizzo di questa app."</string>
+    <string name="disclaimer_description">"Dipendenza Shizuku: aShell richiede un ambiente Shizuku completamente funzionante per funzionare. Assicurarsi che Shizuku sia configurato prima di utilizzare questa app.
+        Conoscenze di base richieste: si consiglia la familiarità con ADB e le basi della riga di comando Linux per un utilizzo efficace.
+        Open Source: aShell è open source e la sua compilazione è gratuita. Contributi e traduzioni sono benvenuti tramite GitLab e POEditor.
+        Nessuna responsabilità: non siamo responsabili per eventuali problemi, perdite di dati o danni che potrebbero verificarsi durante l'utilizzo di questa app."</string>
     <string name="examples_description">"Esplora i comandi ADB più diffusi"</string>
-    <string name="features_description">"\uD83D\uDCDC Esegui comandi ADB con facilità: include esempi integrati e segnalibri.
-        \uD83D\uDCCA Gestisce comandi continui come logcat o top, con opzioni di ricerca e salvataggio per l'output.
-        \uD83C\uDFA8 Interfaccia utente elegante con tema scuro/chiaro automatico per un'esperienza fluida e moderna."</string>
+    <string name="features_description">"Esegui comandi ADB con facilità: include esempi integrati e segnalibri.
+        Gestisce comandi continui come logcat o top, con opzioni di ricerca e salvataggio per l'output.
+        Interfaccia utente elegante con tema scuro/chiaro automatico per un'esperienza fluida e moderna."</string>
     <string name="features_title">"Caratteristiche"</string>
     <string name="file_manager_error_toast">"Impossibile ottenere i dati dal file manager esterno. Interruzione in corso."</string>
     <string name="general">"Generale"</string>
     <string name="granted">"Concesso"</string>
     <string name="language">"Lingua"</string>
     <string name="miscellaneous">"Varie"</string>
-    <string name="permissions_shizuku_description">"🔐 moe.shizuku.manager.permission.API_V23: autorizzazione richiesta per utilizzare le API privilegiate di Shizuku"</string>
-    <string name="permissions_storage_description">"📂 WRITE_EXTERNAL_STORAGE: necessario per salvare l'ultimo output del comando sul dispositivo (facoltativo)"</string>
+    <string name="permissions_shizuku_description">"moe.shizuku.manager.permission.API_V23: autorizzazione richiesta per utilizzare le API privilegiate di Shizuku"</string>
+    <string name="permissions_storage_description">"WRITE_EXTERNAL_STORAGE: necessario per salvare l'ultimo output del comando sul dispositivo (facoltativo)"</string>
     <string name="permissions_title">"Permessi richiesti"</string>
     <string name="privacy_policy">"Politica sulla riservatezza"</string>
     <string name="privacy_policy_description">"La tua privacy è importante: scopri di più"</string>

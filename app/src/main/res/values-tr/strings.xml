@@ -35,22 +35,22 @@
     <string name="developer_contact">"Geliştirici ile iletişim kur"</string>
     <string name="developer_contact_description">"Yardıma veya geri bildirime mi ihtiyacınız var? Geliştiriciyle iletişim kurun"</string>
     <string name="disclaimer">"Sorumluluk reddi"</string>
-    <string name="disclaimer_description">"\uD83E\uDDE9 Shizuku İhtiyacı: aShell çalışmak için sorunsuz çalışan bir Shizuku ortamına ihtiyaç duyar. Kullanmadan önce lütfen Shizuku'nun kurulu olduğundan emin olun
-        \uD83D\uDC68\u200D\uD83D\uDCBB Temel Deneyim Gerekli: ADB ve Linux komut satırı temelleri hakkında bilgi sahibi olması kullanıcı için faydalıdır.
-        \uD83C\uDF10 Açık Kaynak: aShell açık kaynak bir yazılımdır ve ücretsiz olarak geliştirilip katkıda bulunulabilir. Katkı ve çevirileri GitLab ve POEditor de ağırlamaktan gurur duyarız.
-        ⚠️Sorunluluk Reddi: Oluşan herhangi bir sorun halinde sorumluluk bize ait değildir. Bu uygulamayı kullanırken dosya kaybı veya dosya hasarı meydana gelebilir."</string>
+    <string name="disclaimer_description">"Shizuku İhtiyacı: aShell çalışmak için sorunsuz çalışan bir Shizuku ortamına ihtiyaç duyar. Kullanmadan önce lütfen Shizuku'nun kurulu olduğundan emin olun
+        Temel Deneyim Gerekli: ADB ve Linux komut satırı temelleri hakkında bilgi sahibi olması kullanıcı için faydalıdır.
+        Açık Kaynak: aShell açık kaynak bir yazılımdır ve ücretsiz olarak geliştirilip katkıda bulunulabilir. Katkı ve çevirileri GitLab ve POEditor de ağırlamaktan gurur duyarız.
+        Sorunluluk Reddi: Oluşan herhangi bir sorun halinde sorumluluk bize ait değildir. Bu uygulamayı kullanırken dosya kaybı veya dosya hasarı meydana gelebilir."</string>
     <string name="examples_description">"Popüler ADB komutlarını keşfet."</string>
-    <string name="features_description">"\uD83D\uDCDC ADB komutlarını kolaylıkla yürütebilirsin. Uygulamada hazır örnekler ve yer imlerine ekleme seçeneği mevcut.
-        \uD83D\uDCCA Logcat veya top gibi devamlı komutları, veri çıktısı için arama ve ayarları kaydetme ile yürütebilir.
-        \uD83C\uDFA8 Daha akıcı ve modern bir deneyim için otomatik koyu/açık moda sahip şık bir arayüz."</string>
+    <string name="features_description">"ADB komutlarını kolaylıkla yürütebilirsin. Uygulamada hazır örnekler ve yer imlerine ekleme seçeneği mevcut.
+        Logcat veya top gibi devamlı komutları, veri çıktısı için arama ve ayarları kaydetme ile yürütebilir.
+        Daha akıcı ve modern bir deneyim için otomatik koyu/açık moda sahip şık bir arayüz."</string>
     <string name="features_title">"Özellikler"</string>
     <string name="file_manager_error_toast">"Dosya yöneticisinden data(veri) alımı başarısız. İptal ediliyor"</string>
     <string name="general">"Genel"</string>
     <string name="granted">"İzin verildi"</string>
     <string name="language">"Dil"</string>
     <string name="miscellaneous">"Diğer"</string>
-    <string name="permissions_shizuku_description">"🔐 moe.shizuku.manager.permission.API_V23: Shizuku'nun ayrıcalıklı API'lerini kullanmak için gerekli izin"</string>
-    <string name="permissions_storage_description">"📂 WRITE_EXTERNAL_STORAGE: Son komut çıkışının cihaza kaydedilmesi için gerekli (isteğe bağlı)"</string>
+    <string name="permissions_shizuku_description">"moe.shizuku.manager.permission.API_V23: Shizuku'nun ayrıcalıklı API'lerini kullanmak için gerekli izin"</string>
+    <string name="permissions_storage_description">"WRITE_EXTERNAL_STORAGE: Son komut çıkışının cihaza kaydedilmesi için gerekli (isteğe bağlı)"</string>
     <string name="permissions_title">"İzin gerekli"</string>
     <string name="privacy_policy">"Gizlilik politikası"</string>
     <string name="privacy_policy_description">"Gizliliğin önemli: Dahasını öğren"</string>

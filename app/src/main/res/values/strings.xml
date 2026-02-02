@@ -22,11 +22,11 @@
     <string name="developer_contact">Contact developer</string>
     <string name="developer_contact_description">Need help or have feedback? Contact the developer</string>
     <string name="disclaimer">Disclaimer</string>
-    <string name="disclaimer_description">\uD83E\uDDE9 Shizuku Dependency: aShell requires a fully working Shizuku environment to function. Please ensure Shizuku is set up before using this app.\n\uD83D\uDC68\u200D\uD83D\uDCBB Basic Knowledge Required: Familiarity with ADB and Linux command-line basics is recommended for effective use.\n\uD83C\uDF10 Open Source: aShell is open-source and free to build. Contributions and translations are welcome via GitLab and POEditor.\n⚠️ No Liability: We are not liable for any issues, data loss, or damage that may occur while using this app.</string>
+    <string name="disclaimer_description">Shizuku Dependency: aShell requires a fully working Shizuku environment to function. Please ensure Shizuku is set up before using this app.\nBasic Knowledge Required: Familiarity with ADB and Linux command-line basics is recommended for effective use.\nOpen Source: aShell is open-source and free to build. Contributions and translations are welcome via GitLab and POEditor.\nNo Liability: We are not liable for any issues, data loss, or damage that may occur while using this app.</string>
     <string name="dismiss">Dismiss</string>
     <string name="examples">Examples</string>
     <string name="examples_description">Explore popular ADB commands</string>
-    <string name="features_description">\uD83D\uDCDC Run ADB commands with ease—includes built-in examples and bookmarking.\n\uD83D\uDCCA Handles continuous commands like logcat or top, with search and save options for output.\n\uD83C\uDFA8 Sleek UI with auto dark/light theme for a smooth, modern experience.</string>
+    <string name="features_description">Run ADB commands with ease—includes built-in examples and bookmarking.\nHandles continuous commands like logcat or top, with search and save options for output.\nSleek UI with auto dark/light theme for a smooth, modern experience.</string>
     <string name="features_title">Features</string>
     <string name="file_manager_error_toast">Failed to get data from external file manager. Aborting.</string>
     <string name="general">General</string>
@@ -49,8 +49,8 @@
     <string name="language_ru" translatable="false">русский</string>
     <string name="language_zh" translatable="false">中文 (%s)</string>
     <string name="miscellaneous">Miscellaneous</string>
-    <string name="permissions_shizuku_description">🔐 moe.shizuku.manager.permission.API_V23: Permission required to use Shizuku’s privileged APIs</string>
-    <string name="permissions_storage_description">📂 WRITE_EXTERNAL_STORAGE: Needed to save the last command output to your device (optional)</string>
+    <string name="permissions_shizuku_description">moe.shizuku.manager.permission.API_V23: Permission required to use Shizuku\'s privileged APIs</string>
+    <string name="permissions_storage_description">WRITE_EXTERNAL_STORAGE: Needed to save the last command output to your device (optional)</string>
     <string name="permissions_title">Permissions required</string>
     <string name="press_back">Press back again to exit</string>
     <string name="privacy_policy">Privacy policy</string>

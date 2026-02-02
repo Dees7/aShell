@@ -38,19 +38,19 @@
     <string name="disclaimer_description">"Dependencia de Shizuku: aShell requiere un entorno Shizuku completamente funcional. Asegúrate de que Shizuku esté configurado antes de usar esta aplicación.
         Conocimientos básicos necesarios: Se recomienda estar familiarizado con ADB y los conceptos básicos de la línea de comandos de Linux para un uso eficaz.
         Código abierto: aShell es de código abierto y su desarrollo es gratuito. Se agradecen las contribuciones y traducciones a través de GitLab y POEditor.
-        ⚠️ Exención de responsabilidad: No nos hacemos responsables de ningún problema, pérdida de datos o daño que pueda ocurrir durante el uso de esta aplicación."</string>
+        Exención de responsabilidad: No nos hacemos responsables de ningún problema, pérdida de datos o daño que pueda ocurrir durante el uso de esta aplicación."</string>
     <string name="examples_description">"Explora los comandos ADB más populares"</string>
-    <string name="features_description">"\uD83D\uDCDC Ejecuta comandos ADB fácilmente: incluye ejemplos integrados y marcadores.
-        \uD83D\uDCCA Maneja comandos continuos como logcat o top, con opciones de búsqueda y guardado para la salida.
-        \uD83C\uDFA8 Interfaz de usuario elegante con tema oscuro/claro automático para una experiencia fluida y moderna."</string>
+    <string name="features_description">"Ejecuta comandos ADB fácilmente: incluye ejemplos integrados y marcadores.
+        Maneja comandos continuos como logcat o top, con opciones de búsqueda y guardado para la salida.
+        Interfaz de usuario elegante con tema oscuro/claro automático para una experiencia fluida y moderna."</string>
     <string name="features_title">"Características"</string>
     <string name="file_manager_error_toast">"No se pudieron obtener los datos del administrador de archivos externo. Cancelando."</string>
     <string name="general">"General"</string>
     <string name="granted">"Otorgada"</string>
     <string name="language">"Idioma"</string>
     <string name="miscellaneous">"Misceláneas"</string>
-    <string name="permissions_shizuku_description">"🔐 moe.shizuku.manager.permission.API_V23: Se requiere permiso para utilizar las API privilegiadas de Shizuku"</string>
-    <string name="permissions_storage_description">"📂 WRITE_EXTERNAL_STORAGE: Necesario para guardar la última salida del comando en el dispositivo (opcional)"</string>
+    <string name="permissions_shizuku_description">"moe.shizuku.manager.permission.API_V23: Se requiere permiso para utilizar las API privilegiadas de Shizuku"</string>
+    <string name="permissions_storage_description">"WRITE_EXTERNAL_STORAGE: Necesario para guardar la última salida del comando en el dispositivo (opcional)"</string>
     <string name="permissions_title">"Se requieren permisos"</string>
     <string name="privacy_policy">"Política de privacidad"</string>
     <string name="privacy_policy_description">"Tu privacidad es importante: Más información"</string>

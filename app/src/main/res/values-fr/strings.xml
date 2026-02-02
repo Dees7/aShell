@@ -35,22 +35,22 @@
     <string name="developer_contact">"Contacter le développeur"</string>
     <string name="developer_contact_description">"Besoin d'aide ou un avis à formuler ? Contacter le développeur"</string>
     <string name="disclaimer">"Clause de non-responsabilité"</string>
-    <string name="disclaimer_description">"\uD83E\uDDE9 Dépendance Shizuku : aShell nécessite un environnement Shizuku pleinement opérationnel pour fonctionner. Veuillez vous assurer que Shizuku est configuré avant d'utiliser cette application.
-        \uD83D\uDC68\u200D\uD83D\uDCBB Connaissances de base requises : Il est recommandé d'être familier avec ADB et les bases de la ligne de commande Linux pour une utilisation efficace.
-        \uD83C\uDF10 Open Source : aShell est open-source et sa maintenance est gratuite. Les contributions et les traductions sont les bienvenues via GitLab et POEditor.
-        ⚠️ Aucune responsabilité : Nous ne sommes pas responsables des problèmes, pertes de données ou dommages pouvant survenir lors de l'utilisation de cette application."</string>
+    <string name="disclaimer_description">"Dépendance Shizuku : aShell nécessite un environnement Shizuku pleinement opérationnel pour fonctionner. Veuillez vous assurer que Shizuku est configuré avant d'utiliser cette application.
+        Connaissances de base requises : Il est recommandé d'être familier avec ADB et les bases de la ligne de commande Linux pour une utilisation efficace.
+        Open Source : aShell est open-source et sa maintenance est gratuite. Les contributions et les traductions sont les bienvenues via GitLab et POEditor.
+        Aucune responsabilité : Nous ne sommes pas responsables des problèmes, pertes de données ou dommages pouvant survenir lors de l'utilisation de cette application."</string>
     <string name="examples_description">"Explorer les commandes ADB les plus courantes"</string>
-    <string name="features_description">"\uD83D\uDCDC Exécute les commandes ADB avec facilité - comprend des exemples intégrés et des signets.
-        \uD83D\uDCCA Gère les commandes continues telles que logcat ou top, avec des options de recherche et d'enregistrement pour la sortie.
-        \uD83C\uDFA8 Interface utilisateur élégante avec un thème sombre/lumineux automatique pour une expérience fluide et moderne."</string>
+    <string name="features_description">"Exécute les commandes ADB avec facilité - comprend des exemples intégrés et des signets.
+        Gère les commandes continues telles que logcat ou top, avec des options de recherche et d'enregistrement pour la sortie.
+        Interface utilisateur élégante avec un thème sombre/lumineux automatique pour une expérience fluide et moderne."</string>
     <string name="features_title">"Caractéristiques"</string>
     <string name="file_manager_error_toast">"Échec de la récupération des données du gestionnaire de fichiers externe. Abandon."</string>
     <string name="general">"Général"</string>
     <string name="granted">"Accordée"</string>
     <string name="language">"Language"</string>
     <string name="miscellaneous">"Divers"</string>
-    <string name="permissions_shizuku_description">"🔐 moe.shizuku.manager.permission.API_V23 : Permission requise pour utiliser les API de Shizuku"</string>
-    <string name="permissions_storage_description">"📂 WRITE_EXTERNAL_STORAGE : Nécessaire pour enregistrer la dernière sortie de console sur votre appareil (facultatif)."</string>
+    <string name="permissions_shizuku_description">"moe.shizuku.manager.permission.API_V23 : Permission requise pour utiliser les API de Shizuku"</string>
+    <string name="permissions_storage_description">"WRITE_EXTERNAL_STORAGE : Nécessaire pour enregistrer la dernière sortie de console sur votre appareil (facultatif)."</string>
     <string name="permissions_title">"Permissions requises"</string>
     <string name="privacy_policy">"Politique de confidentialité"</string>
     <string name="privacy_policy_description">"Votre vie privée est importante : En savoir plus"</string>

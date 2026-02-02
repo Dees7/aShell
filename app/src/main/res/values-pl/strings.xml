@@ -35,22 +35,22 @@
     <string name="developer_contact">"Kontakt z deweloperem"</string>
     <string name="developer_contact_description">"Potrzebujesz pomocy lub masz opinię? Skontaktuj się z deweloperem"</string>
     <string name="disclaimer">"Zastrzeżenia"</string>
-    <string name="disclaimer_description">"🧩 Wymóg Shizuku: aShell potrzebuje w pełni działającego środowiska Shizuku. Upewnij się, że jest skonfigurowane przed użyciem aplikacji.
-        👨‍💻 Podstawowa wiedza: Znajomość ADB i podstawowych komend Linuksa przyda się do efektywnego korzystania.
-        🌐 Open Source: aShell jest otwarto-źródłowe. Wkład w rozwój i tłumaczenia jest mile widziany poprzez GitLab i POEditor.
-        ⚠️ Brak odpowiedzialności: Nie ponosimy odpowiedzialności za problemy, utratę danych ani uszkodzenia powstałe podczas korzystania z aplikacji."</string>
+    <string name="disclaimer_description">"Wymóg Shizuku: aShell potrzebuje w pełni działającego środowiska Shizuku. Upewnij się, że jest skonfigurowane przed użyciem aplikacji.
+        Podstawowa wiedza: Znajomość ADB i podstawowych komend Linuksa przyda się do efektywnego korzystania.
+        Open Source: aShell jest otwarto-źródłowe. Wkład w rozwój i tłumaczenia jest mile widziany poprzez GitLab i POEditor.
+        Brak odpowiedzialności: Nie ponosimy odpowiedzialności za problemy, utratę danych ani uszkodzenia powstałe podczas korzystania z aplikacji."</string>
     <string name="examples_description">"Przeglądaj popularne polecenia ADB"</string>
-    <string name="features_description">"✅ Uruchamiaj polecenia ADB z łatwością — zawiera wbudowane przykłady i zakładki.
-        ✅ Obsługuje ciągłe polecenia, takie jak logcat lub top, z opcjami wyszukiwania i zapisywania wyników.
-        🎨 Elegancki interfejs użytkownika z automatycznym motywem ciemnym/jasnym dla płynnego, nowoczesnego doświadczenia."</string>
+    <string name="features_description">"Uruchamiaj polecenia ADB z łatwością — zawiera wbudowane przykłady i zakładki.
+        Obsługuje ciągłe polecenia, takie jak logcat lub top, z opcjami wyszukiwania i zapisywania wyników.
+        Elegancki interfejs użytkownika z automatycznym motywem ciemnym/jasnym dla płynnego, nowoczesnego doświadczenia."</string>
     <string name="features_title">"Funkcje"</string>
     <string name="file_manager_error_toast">"Nie udało się pobrać danych z zewnętrznego menedżera plików. Przerywam."</string>
     <string name="general">"Ogólne"</string>
     <string name="granted">"Udzielono"</string>
     <string name="language">"Język"</string>
     <string name="miscellaneous">"Różne"</string>
-    <string name="permissions_shizuku_description">"🔐 moe.shizuku.manager.permission.API_V23: Wymagane uprawnienie do korzystania z interfejsu API Shizuku"</string>
-    <string name="permissions_storage_description">"📂 WRITE_EXTERNAL_STORAGE: Potrzebne do zapisania wyniku ostatniego polecenia na urządzeniu (opcjonalne)"</string>
+    <string name="permissions_shizuku_description">"moe.shizuku.manager.permission.API_V23: Wymagane uprawnienie do korzystania z interfejsu API Shizuku"</string>
+    <string name="permissions_storage_description">"WRITE_EXTERNAL_STORAGE: Potrzebne do zapisania wyniku ostatniego polecenia na urządzeniu (opcjonalne)"</string>
     <string name="permissions_title">"Wymagane uprawnienia"</string>
     <string name="privacy_policy">"Polityka prywatności"</string>
     <string name="privacy_policy_description">"Twoja prywatność ma znaczenie: Dowiedz się więcej"</string>

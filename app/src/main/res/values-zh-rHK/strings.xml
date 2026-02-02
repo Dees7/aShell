@@ -36,22 +36,22 @@
     <string name="developer_contact">"聯絡開發人員"</string>
     <string name="developer_contact_description">"需要協助或提供意見嗎？請聯絡我們"</string>
     <string name="disclaimer">"免責聲明"</string>
-    <string name="disclaimer_description">"\uD83E\uDDE9 Shizuku 架構：aShell 需要完整的 Shizuku 環境才能運作，使用前請先確認您已配置完成。
-        \uD83D\uDC68\u200D\uD83D\uDCBB 基本概念：建議事先了解 ADB 與 Linux 命令相關知識以有效運用。
-        \uD83C\uDF10 開放原始碼：aShell 資源公開並可免費開發，歡迎透過 GitLab 和 POEditor 提供協助或翻譯。
-        ⚠️ 免責聲明：我們不會對使用本應用程式所造成的錯誤、資料遺失或裝置損壞承擔任何責任。"</string>
+    <string name="disclaimer_description">"Shizuku 架構：aShell 需要完整的 Shizuku 環境才能運作，使用前請先確認您已配置完成。
+        基本概念：建議事先了解 ADB 與 Linux 命令相關知識以有效運用。
+        開放原始碼：aShell 資源公開並可免費開發，歡迎透過 GitLab 和 POEditor 提供協助或翻譯。
+        免責聲明：我們不會對使用本應用程式所造成的錯誤、資料遺失或裝置損壞承擔任何責任。"</string>
     <string name="examples_description">"瀏覽常用 ADB 指令"</string>
-    <string name="features_description">"\uD83D\uDCDC 輕鬆執行 ADB 指令 — 內建範例與書籤管理。
-        \uD83D\uDCCA 處理 logcat、top 等連續指令，搜尋與儲存輸出內容。
-        \uD83C\uDFA8 現代介面與流暢體驗，支援自動切換深色 / 淺色。"</string>
+    <string name="features_description">"輕鬆執行 ADB 指令 — 內建範例與書籤管理。
+        處理 logcat、top 等連續指令，搜尋與儲存輸出內容。
+        現代介面與流暢體驗，支援自動切換深色 / 淺色。"</string>
     <string name="features_title">"特色"</string>
     <string name="file_manager_error_toast">"以外部檔案管理員擷取資料失敗，作業已終止。"</string>
     <string name="general">"一般"</string>
     <string name="granted">"授予"</string>
     <string name="language">"語言"</string>
     <string name="miscellaneous">"其他"</string>
-    <string name="permissions_shizuku_description">"🔐 moe.shizuku.manager.permission.API_V23：需要使用 Shizuku 特殊 API 的權限"</string>
-    <string name="permissions_storage_description">"📂 WRITE_EXTERNAL_STORAGE：將最後輸出的內容儲存至您的裝置 (選用)"</string>
+    <string name="permissions_shizuku_description">"moe.shizuku.manager.permission.API_V23：需要使用 Shizuku 特殊 API 的權限"</string>
+    <string name="permissions_storage_description">"WRITE_EXTERNAL_STORAGE：將最後輸出的內容儲存至您的裝置 (選用)"</string>
     <string name="permissions_title">"權限要求"</string>
     <string name="privacy_policy">"隱私權政策"</string>
     <string name="privacy_policy_description">"與您的隱私相關：了解更多"</string>
