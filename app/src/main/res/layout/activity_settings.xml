@@ -58,7 +58,6 @@
                 android:id="@+id/copyright"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold|italic"
                 android:clickable="false" />
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.appcompat.widget.LinearLayoutCompat>

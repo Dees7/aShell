@@ -13,7 +13,6 @@
             android:layout_height="wrap_content"
             android:textColor="?attr/colorPrimary"
             android:layout_gravity="center"
-            android:textStyle="bold|italic"
             android:gravity="start|center"
             android:clickable="false"
             android:textSize="17sp" />
@@ -24,7 +23,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:lineSpacingExtra="3sp"
-            android:textStyle="bold|italic"
             android:gravity="start|center"
             android:clickable="false"
             android:textSize="14sp" />
